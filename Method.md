@@ -6,7 +6,7 @@
 
 ## Class Method 
 1. input/output이 없이 print만 하는 예시
-    ```
+    ```java
     class MyClass {
         static void sayHi() {
             System.out.println("Hi from MyClass");
@@ -27,7 +27,7 @@
 
 2. input, output을 한개씩 받는 예시
     - input으로 시간 (int) 을 받고 output으로 input 시간에 해당되는 초 (int)를 내보내는 함수
-    ```
+    ```java
     class MyClass {
         static int getSeconds(int hours) {
             return hours * 60 * 60;
@@ -43,7 +43,7 @@
     }
     ```
     - input으로 초 (int) 을 받고 output으로 input 시간에 해당되는 시간 (double)를 내보내는 함수
-    ```
+    ```java
     class MyClass {
         static double getHours(int seconds) {
             return seconds / 60.0 / 60.0;
@@ -60,7 +60,7 @@
     ```
 3. 여러개의 input 을 받는 예시
     - input으로 시간 (int)과 분(int)과 초(int) 받고 output으로 input 시간에 해당되는 초 (int)를 내보내는 함수
-    ```
+    ```java
     class MyClass {
         static int getSeconds(int hours, int minutes, int seconds) {
             return hours * 60 * 60 + minutes * 60 + seconds;
